@@ -60,3 +60,52 @@ But final responsibility and choice remain with the user.
 ## License
 
 MIT License
+---
+
+## Quick Start
+
+### Run the system
+
+Open any AI chat model and paste:
+
+`prompt/behavior_guard_freeze_v1.txt`
+
+The system will then run the Behavior Guard flow.
+
+---
+
+## Run regression testing
+
+Paste:
+
+`testing/regression_test_prompt.txt`
+
+into another AI model to run regression tests.
+
+---
+
+## Example Runs
+
+See:
+
+- `examples/startup_examples.md`
+
+---
+
+## Core Documents
+
+- `docs/philosophy.md`
+- `docs/boundaries.md`
+- `changelog/v1.md`
+
+---
+
+## Project Status
+
+Current status:
+
+- Stable v1
+- Open source
+- Prompt-based
+- Optimized for weak-model compatibility
+- Focused on behavior correction and executable action
