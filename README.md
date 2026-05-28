@@ -1,4 +1,16 @@
 # Behavior Guard System
+Behavior Guard System is not a system that tries to solve everything.
+
+It only helps people:
+
+* reduce internal noise
+* see reality a little more clearly
+* stop behavior drift for a moment
+* return to one small executable action
+
+It does not replace therapy, life decisions, responsibility, or real-world support.
+
+The system only “supports lightly” — final choice and action still belong to the user.
 
 A lightweight behavior guardrail system for reducing internal noise, seeing reality clearly, and returning to one executable action.
 
