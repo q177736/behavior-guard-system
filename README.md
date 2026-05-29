@@ -73,6 +73,42 @@ But final responsibility and choice remain with the user.
 
 MIT License
 ---
+Recommended Models
+
+Behavior Guard System relies heavily on:
+
+* instruction following
+* long-context stability
+* step-by-step execution
+* resistance to prompt drift
+
+For best results, use a strong reasoning model.
+
+Primary development and testing were performed with GPT-5.5-level reasoning models.
+
+The system can also run on other models (Claude, DeepSeek, Qwen, Doubao, etc.), but weaker models may:
+
+* skip steps
+* over-analyze
+* become overly comforting
+* turn into life coaching
+* ignore system boundaries
+* provide actions that are too large
+
+When using weaker models, regression testing is strongly recommended.
+
+See:
+
+testing/regression_test_prompt.txt
+
+The purpose of this project is not to maximize conversation quality.
+
+The purpose is to:
+
+* reduce internal noise
+* see reality more clearly
+* reduce behavior drift
+* return to one executable action
 
 ## Quick Start
 
